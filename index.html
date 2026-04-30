@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium portfolio of a Graphic Designer and Frontend Web Developer." />
+    <title>Avery Blake | Graphic Designer & Frontend Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#home">Avery<span>Studio</span></a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Premium Personal Brand Portfolio</p>
+            <h1>Hi, I'm <span>Avery Blake</span></h1>
+            <h2>Graphic Designer & Frontend Web Developer</h2>
+            <p>
+              Building visually compelling and functional digital experiences that fuse bold creativity with polished frontend craft.
+            </p>
+            <div class="hero-actions">
+              <a href="#portfolio" class="btn btn-primary">View Projects</a>
+              <a href="#" class="btn btn-ghost">Download CV</a>
+            </div>
+          </div>
+          <div class="hero-image reveal">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Creative professional portrait" loading="eager" />
+          </div>
+        </div>
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="image-card reveal">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="About portrait" loading="lazy" />
+          </div>
+          <div class="reveal">
+            <h3>About Me</h3>
+            <p>
+              I’m a Frontend Web Developer and Graphic Designer who blends clean code with strong visual design to build digital experiences that are both functional and memorable. I specialize in creating modern, responsive websites and brand visuals that not only look great but also communicate clearly and perform effectively.
+            </p>
+            <p>
+              With a strong eye for design and a solid understanding of frontend development, I bridge the gap between creativity and technology. From designing user-friendly interfaces and brand assets to developing responsive websites with smooth interactions, I focus on crafting experiences that are visually engaging, intuitive, and built with purpose.
+            </p>
+            <p>
+              My work combines aesthetics, usability, and performance—whether it’s designing bold visual identities, creating marketing graphics, or building polished websites that bring ideas to life. I’m passionate about turning concepts into impactful digital solutions that help brands stand out and connect with their audience.
+            </p>
+            <div class="badges">
+              <span>Graphic Design</span><span>Frontend Development</span><span>Branding</span><span>UI Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section surface">
+        <div class="container">
+          <h3 class="section-title">Services</h3>
+          <div class="cards three">
+            <article class="card reveal"><h4>🎨 Graphic Design</h4><p>Premium visual design for campaigns, products, and digital storytelling with clarity and impact.</p></article>
+            <article class="card reveal"><h4>🖼️ Poster & Thumbnail Design</h4><p>Scroll-stopping poster layouts and thumbnail systems optimized for engagement and consistency.</p></article>
+            <article class="card reveal"><h4>💻 Frontend Web Development</h4><p>Fast, responsive websites built with modern frontend architecture and refined UI interactions.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h3 class="section-title">Portfolio</h3>
+          <div class="portfolio-head">
+            <h4>Design Showcase</h4>
+            <div class="tabs" id="design-tabs"></div>
+          </div>
+          <div id="design-grid" class="design-grid"></div>
+
+          <h4 class="sub-title">Website Projects</h4>
+          <div id="web-grid" class="cards two"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section surface">
+        <div class="container">
+          <h3 class="section-title">Skills</h3>
+          <div class="cards three">
+            <article class="card reveal"><h4>Design Tools</h4><p>Photoshop • Illustrator • Figma • Canva</p></article>
+            <article class="card reveal"><h4>Frontend</h4><p>HTML • CSS • JavaScript • React • Tailwind</p></article>
+            <article class="card reveal"><h4>Creative Skills</h4><p>Branding • Layout • Typography • Visual Design</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="container">
+          <h3 class="section-title">Experience & Journey</h3>
+          <div class="timeline">
+            <div class="event reveal"><strong>2026</strong><p>Led premium brand and website projects for global freelance clients.</p></div>
+            <div class="event reveal"><strong>2025</strong><p>Built high-converting landing page systems and reusable UI libraries.</p></div>
+            <div class="event reveal"><strong>2024</strong><p>Completed advanced UI/UX and frontend certifications.</p></div>
+            <div class="event reveal"><strong>2023</strong><p>Started multidisciplinary journey in design + web development.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section surface">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <h3>Let’s build something remarkable.</h3>
+            <p>Email: hello@averystudio.com</p>
+            <p>Phone: +1 (555) 417-9822</p>
+            <p>GitHub • LinkedIn • Gmail</p>
+          </div>
+          <form class="contact-form reveal">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Project Details"></textarea>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container foot-wrap">
+        <p><strong>AveryStudio</strong> — Crafting premium digital experiences.</p>
+        <p>© 2026 Avery Blake. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <dialog id="lightbox">
+      <img alt="Project preview" id="lightbox-image" />
+      <button id="close-lightbox" aria-label="Close preview">✕</button>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
